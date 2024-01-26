@@ -5,6 +5,10 @@ Il y a une start-up qui vend des produits alimentaires. Il est nécessaire de co
 
 Ensuite, il faut étudier les résultats du test A/B. Les designers proposent de changer la police de caractères dans toute l'application.
 
+Il a été convenu de prendre une décision en fonction des résultats du test A/B. Les utilisateurs ont été répartis en 3 groupes : 2 groupes de contrôle avec les anciennes polices de caractères et un groupe expérimental avec les nouvelles polices. Découvrez quelle police de caractères fonctionne le mieux.
+
+La création de deux groupes A au lieu d'un présente certains avantages. Si les deux groupes de contrôle se révèlent identiques, on peut être sûr de la précision du test. Si des différences significatives existent entre les valeurs A et A, cela peut aider à identifier les facteurs ayant conduit à la distorsion des résultats. La comparaison des groupes de contrôle permet également de comprendre combien de temps et de données seront nécessaires pour les tests ultérieurs.
+
 ## But de travail 
 Analyser le comportement des utilisateurs de l'application mobile.
 
@@ -20,3 +24,6 @@ Les données sont présentées sous forme de journaux. Chaque entrée dans le jo
 - *DeviceIDHash* — identifiant unique de l'utilisateur;
 - *EventTimestamp* — l'heure de l'événement;
 - *ExpId* — le numéro de l'expérience : 246 et 247 sont les groupes de contrôle, tandis que 248 est le groupe expérimental.
+
+
+
