@@ -9,13 +9,27 @@ Il a été convenu de prendre une décision en fonction des résultats du test A
 
 La création de deux groupes A au lieu d'un présente certains avantages. Si les deux groupes de contrôle se révèlent identiques, on peut être sûr de la précision du test. Si des différences significatives existent entre les valeurs A et A, cela peut aider à identifier les facteurs ayant conduit à la distorsion des résultats. La comparaison des groupes de contrôle permet également de comprendre combien de temps et de données seront nécessaires pour les tests ultérieurs.
 
-## But de travail 
-Analyser le comportement des utilisateurs de l'application mobile.
-
 ## Objectifs du projet 
 1) Étudier l'entonnoir des ventes.
 
 2) Analyser les résultats du test A/B sur le changement de police.
+
+## Stack du Projet :
+- Analyse exploratoire des données (EDA)
+- Mesures de produits
+- Analyse d'événements
+- Visualisation des données
+- A/B testing
+- Tests statistiques multiples
+
+## Bibliothèques Python utilisées :
+- `pandas`
+- `numpy`
+- `math`
+- `matplotlib.pyplot`
+- `statsmodels.stats.proportion`
+- `scipy`
+- `plotly`
 
 ## Description des données 
 Les données sont présentées sous forme de journaux. Chaque entrée dans le journal est une action de l'utilisateur ou un événement.
